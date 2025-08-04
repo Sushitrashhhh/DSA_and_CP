@@ -21,8 +21,7 @@ public:
             if (slow == fast){
                 return true; // Cycle detected
             }
-        return false; // No cycle detected
-
         }
+        return false; // No cycle detected
     }
 };
